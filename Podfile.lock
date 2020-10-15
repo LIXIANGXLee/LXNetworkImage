@@ -1,0 +1,25 @@
+PODS:
+  - Kingfisher (5.15.5):
+    - Kingfisher/Core (= 5.15.5)
+  - Kingfisher/Core (5.15.5)
+  - LXNetworkImage (1.0.0):
+    - Kingfisher
+
+DEPENDENCIES:
+  - LXNetworkImage (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  LXNetworkImage:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Kingfisher: e3ec347a5ab8817b7585ef46923a2d2b9a7d8fbe
+  LXNetworkImage: 33f95e167cee7ed311481161abfa56c02e8a89d6
+
+PODFILE CHECKSUM: 5f9b35eeee06a60c52153b1d5cf1d960b871e48e
+
+COCOAPODS: 1.9.3
