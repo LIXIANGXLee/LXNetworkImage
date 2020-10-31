@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LXNetworkImage"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "LXNetworkImage."
 
   spec.description  = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.author = { "lixiang" => "lixiang@gokuaidian.com" }
 
-  spec.platform = :ios, "10.0"
+  spec.platform = :ios, "9.0"
   spec.swift_version = "5.0"
 
   spec.source = { :git => "https://github.com/LIXIANGXLee/LXNetworkImage.git", :tag => "#{spec.version}" }
